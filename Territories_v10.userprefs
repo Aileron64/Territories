@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Player.cs" Line="284" Column="47" />
+      <File FileName="Assets\Scripts\Lobby.cs" Line="126" Column="10" />
+      <File FileName="Assets\Scripts\Health.cs" Line="16" Column="17" />
+      <File FileName="Assets\Scripts\PlayerBlue.cs" Line="233" Column="1" />
+      <File FileName="Assets\Scripts\Destroid.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Destriod2.cs" Line="21" Column="24" />
+      <File FileName="Assets\Scripts\amiController.cs" Line="5" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

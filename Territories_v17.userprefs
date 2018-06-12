@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Lobby.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Lobby.cs" Line="198" Column="18" />
+      <File FileName="Assets\Scripts\Health.cs" Line="84" Column="24" />
+      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerBlue.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Redbaseturret.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\health2m.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameManager\NetworkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerSync.cs" Line="1" Column="1" />
+      <File FileName="..\..\Territories_v11\Assets\Scripts\PlayerSync.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

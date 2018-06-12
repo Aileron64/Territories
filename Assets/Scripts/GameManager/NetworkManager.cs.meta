@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 167591d574d7a834484ddeb92369d771
+labels:
+- Script
+- Multiplayer
+- Network
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - playerObject: {instanceID: 0}
+  - buttonPrefab: {instanceID: 0}
+  - buttonListHolder: {instanceID: 0}
+  - errorText: {instanceID: 0}
+  - lobbycreate: {fileID: 188862, guid: 79026c5f6324ac84587b5aee9957c3c6, type: 2}
+  - testMessage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{83E3394A-6EC4-378A-6364-F844F97C4293}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Basehealth1.cs" />
+     <Compile Include="Assets\Scripts\Blueturretcont.cs" />
+     <Compile Include="Assets\Scripts\CHandler.cs" />
+     <Compile Include="Assets\Scripts\CamHandler.cs" />
+     <Compile Include="Assets\Scripts\CreateGrid.cs" />
+     <Compile Include="Assets\Scripts\Cube.cs" />
+     <Compile Include="Assets\Scripts\Destriod2.cs" />
+     <Compile Include="Assets\Scripts\Destroid.cs" />
+     <Compile Include="Assets\Scripts\DisplayNames.cs" />
+     <Compile Include="Assets\Scripts\GameManager\ChatSystem.cs" />
+     <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GameManager\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\GameManager\NetworkManagerold2.cs" />
+     <Compile Include="Assets\Scripts\GameManager\QualityManager.cs" />
+     <Compile Include="Assets\Scripts\GameManager\SettingsManager.cs" />
+     <Compile Include="Assets\Scripts\GridManager.cs" />
+     <Compile Include="Assets\Scripts\HUDTest.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\Healthaddred.cs" />
+     <Compile Include="Assets\Scripts\Lobby.cs" />
+     <Compile Include="Assets\Scripts\MapButton.cs" />
+     <Compile Include="Assets\Scripts\MapCanvas.cs" />
+     <Compile Include="Assets\Scripts\MapSprite.cs" />
+     <Compile Include="Assets\Scripts\MapTile.cs" />
+     <Compile Include="Assets\Scripts\MapUI.cs" />
+     <Compile Include="Assets\Scripts\Minimap.cs" />
+     <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\NetworkManagerold.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Player23.cs" />
+     <Compile Include="Assets\Scripts\PlayerBlue.cs" />
+     <Compile Include="Assets\Scripts\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerSync.cs" />
+     <Compile Include="Assets\Scripts\Redbaseturret.cs" />
+     <Compile Include="Assets\Scripts\ServerButtonHandler.cs" />
+     <Compile Include="Assets\Scripts\Shoot.cs" />
+     <Compile Include="Assets\Scripts\TestPlayer.cs" />
+     <Compile Include="Assets\Scripts\TitleButton.cs" />
+     <Compile Include="Assets\Scripts\TitleScreen.cs" />
+     <Compile Include="Assets\Scripts\Weapon.cs" />
+     <Compile Include="Assets\Scripts\_Loader.cs" />
+     <Compile Include="Assets\Scripts\amiController.cs" />
+     <Compile Include="Assets\Scripts\anc2m.cs" />
+     <Compile Include="Assets\Scripts\anic1m.cs" />
+     <Compile Include="Assets\Scripts\anict2f.cs" />
+     <Compile Include="Assets\Scripts\ballT.cs" />
+     <Compile Include="Assets\Scripts\basehealthteam2.cs" />
+     <Compile Include="Assets\Scripts\blueballs.cs" />
+     <Compile Include="Assets\Scripts\destory.cs" />
+     <Compile Include="Assets\Scripts\health1m.cs" />
+     <Compile Include="Assets\Scripts\healthaddblue.cs" />
+     <Compile Include="Assets\Scripts\junk\$CharacterMotor.cs" />
+     <Compile Include="Assets\Scripts\junk\$FPSInputController1.cs" />
+     <Compile Include="Assets\Scripts\junk\CharacterMotor.cs" />
+     <Compile Include="Assets\Scripts\junk\CharacterMotor1.cs" />
+     <Compile Include="Assets\Scripts\junk\FPSInputController1.cs" />
+     <Compile Include="Assets\Scripts\junk\HUD.cs" />
+     <Compile Include="Assets\Scripts\junk\Lobbybackup.cs" />
+     <Compile Include="Assets\Scripts\junk\PlayerT2.cs" />
+     <Compile Include="Assets\Scripts\junk\PlayerT3.cs" />
+     <Compile Include="Assets\Scripts\junk\PlayerT4.cs" />
+     <Compile Include="Assets\Scripts\junk\changecolor.cs" />
+     <Compile Include="Assets\Scripts\junk\health2f.cs" />
+     <Compile Include="Assets\Scripts\junk\health2m.cs" />
+     <Compile Include="Assets\Scripts\netCam.cs" />
+     <Compile Include="Assets\Scripts\playerData.cs" />
+     <Compile Include="Assets\Scripts\redballs.cs" />
+     <Compile Include="Assets\Scripts\shootfx.cs" />
+     <Compile Include="Assets\Scripts\turretControl.cs" />
+     <Compile Include="Assets\weaponSelected.cs" />
+     <None Include="Assets\Standard Assets\particles\sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Super Simple health pack\readme.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/xfers/eewrwe/Territories_v18/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
